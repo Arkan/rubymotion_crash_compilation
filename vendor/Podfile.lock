@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (1.3.2)
+  - BCGenieEffect (1.0)
+  - DACircularProgress (2.1.0)
+  - Godzippa (0.1.2)
+  - libwebp (0.3.0-rc7):
+    - libwebp/dec
+    - libwebp/dsp
+    - libwebp/utils
+    - libwebp/webp
+  - libwebp/dec (0.3.0-rc7)
+  - libwebp/dsp (0.3.0-rc7)
+  - libwebp/utils (0.3.0-rc7)
+  - libwebp/webp (0.3.0-rc7)
+  - MagicalRecord (2.1)
+  - MessagePack (1.0.0)
+  - NSData+MD5Digest (1.0.0)
+  - NSLogger (1.1)
+  - Reachability (3.1.1)
+  - SDWebImage (3.4):
+    - libwebp
+    - SDWebImage/MapKit
+  - SDWebImage/MapKit (3.4):
+    - libwebp
+  - SVProgressHUD (0.9)
+  - UIActivityIndicator-for-SDWebImage (1.0.0):
+    - SDWebImage (~> 3.2)
+
+DEPENDENCIES:
+  - AFNetworking (= 1.3.2)
+  - BCGenieEffect (~> 1.0)
+  - DACircularProgress (~> 2.1.0)
+  - Godzippa
+  - MagicalRecord (= 2.1)
+  - MessagePack (from `git@github.com:Arkan/msgpack-objectivec.git`)
+  - NSData+MD5Digest
+  - NSLogger
+  - Reachability
+  - SDWebImage (~> 3.3)
+  - SVProgressHUD (= 0.9)
+  - UIActivityIndicator-for-SDWebImage
+
+EXTERNAL SOURCES:
+  MessagePack:
+    :git: git@github.com:Arkan/msgpack-objectivec.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7f9bcd7c287a75476cd5c61e82fd3380e93e4c54
+  BCGenieEffect: bc00729f71206c7fbcaed5c90215f957dbd786b1
+  DACircularProgress: 8c8f20c8dffdd647fbf570ddecbc2b1b59da5888
+  Godzippa: 1634e19b3cf30370a1b8eb5402532188bee6b7bc
+  libwebp: 40517fa1fd3716eded73b4696c45fc0b66e4b414
+  MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
+  MessagePack: 656c74fb68568bea47a13c9adf0841106796b696
+  NSData+MD5Digest: 8275479b2a935e6caa8a92a9a814fb5abecba367
+  NSLogger: 4567fef08d0db18a89cce91b2053823fc0950738
+  Reachability: 2be6bc2fd2bd31d97f5db33e75e4b29c79e95883
+  SDWebImage: f13f791e411c632489824aa7f129e230b52bf5c4
+  SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
+  UIActivityIndicator-for-SDWebImage: c5e8f6208e302b94bc50505dd24c78f34af8a749
+
+COCOAPODS: 0.18.1
